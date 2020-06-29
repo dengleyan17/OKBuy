@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="../css/base.css">
     <link rel="stylesheet" href="../css/register.css">
     <script src="../../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../js/captcha.js"></script>
+    <script src="../js/md5.js"></script>
     <script src="../js/register.js"></script>
 </head>
 <body>
@@ -31,49 +33,49 @@
     </a>
 
     <div class="loginwarpper">
-        <div class="login">
-            <div class="login-right">
-                <div class="register_new_title"><span class="reg">欢迎加入</span><a href="" class="reglogin">登陆</a></div>
+        <div class="login fl">
+            <div class="login-right fr">
+                <div class="register_new_title"><span class="reg">欢迎加入</span><a href="" class="reglogin fr">登录</a></div>
                     <!-- 手机号码输入框 -->
-                    <div class="register_item photo">
+                    <div class="register_item phone">
                         <div class="register_txt">
-                            <div class="photo">
-                                <input type="text" placeholder="请输入手机号" name="photo" id="photo">
+                            <div class="phone">
+                                <input type="text" placeholder="请输入手机号" name="phone" id="phone">
+                                <!-- 手机号码提示框 -->
+                                
                         </div>
+                            <div class="registererror"></div>
                     </div>
                     </div>
-                    <!-- 手机号码提示框 -->
-                    <div class="registererror">
-                        <i class="p_reg_note"></i>
-                        <span>请输入手机号码！</span>
-                    </div>
+                    
+                    
                     <!-- 密码输入框 -->
                     <div class="register_item password">
                         <div class="register_txt">
                             <div class="password">
                                 <input type="text" placeholder="请设置密码" name="password" id="password">
+                                <!-- 密码设置提示框 -->
+                                
                             </div>
+                            <div class="registererror"></div>
                         </div>
                     </div>
-                    <!-- 密码设置提示框 -->
-                    <div class="registererror">
-                        <i class="p_reg_note"></i>
-                        <span>请设置密码!!</span>
-                    </div>
+                    
+                    
                     <!-- 图片二维码验证 -->
-                    <div class="imageCord">
-                        <div class="imageCord-register_txt">
-                            <input type="text" placeholder="图形验证码" name="imageCord" id="imageCord">
-                            <img src="" alt="">
+                    <div class="imageCode">
+                        <div class="imageCode-register_txt">
+                            <input type="text" placeholder="图形验证码" name="imageCode" id="imageCode">
+                            <canvas width="160" height="50" id="captcha" class="fr"></canvas>
                         </div>
+                            <!-- 图片二维码提示框 -->
+                            <div class="registererror sp"></div>
                     </div>
-                    <!-- 图片二维码提示框 -->
-                    <div class="registererror">
-                        <i class="p_reg_note"></i>
-                        <span>验证码不正确!!</span>
-                    </div>
+                    
+                    
                     <!-- 注册按钮 -->
-                    <input type="button" class="register_btn" name="register_btn" id="register_btn" value="立即注册">
+                    <button class="register_btn" name="register_btn" id="register_btn" value="">立即注册</button>
+                    
                     <p class="school_check_P">请仔细阅读 <a href=""> 好乐买隐私协议</a> 注册即视为同意</p>
             </div>
         </div>

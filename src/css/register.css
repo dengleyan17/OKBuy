@@ -63,14 +63,12 @@ body>.loginwarpper{
     width: 100%;
     color: #676767;
     font-size: 14px;
-    float: left;
     display: inline;
     zoom: 1;
     background-position: 55px 20px;
 
 }
 .loginwarpper .login .login-right{
-    float: right;
     position: relative;
     width: 340px;
     height: 520px;
@@ -92,7 +90,6 @@ body>.loginwarpper{
 
 }
 .register_new_title .reglogin{
-    float: right;
     color: #d70057;
 
 }
@@ -102,6 +99,7 @@ body>.loginwarpper{
     width: 346px;
     overflow: hidden;
     height: 53px;
+    padding-bottom: 28px;
 
 }
 .login .login-right .register_item .register_txt{
@@ -110,9 +108,9 @@ body>.loginwarpper{
     top: 0;
     float: left;
     width: 346px;
-
+    
 }
-.login .login-right .register_photo .register_txt>div{
+.login .login-right .register_item .register_txt>div{
     position: relative;
     width: 337px;
     height: 50px;
@@ -125,41 +123,48 @@ body>.loginwarpper{
     font-size: 14px;
     background: #fff;
     line-height: 46px;
-    margin-bottom: 13px;
     padding-left: 10px;
     border: 1px solid #aaa;
     
 }
 /* 输入错误提示框 */
 .registererror{
+    position: absolute;
+    bottom: 0;
     height: 30px;
     line-height: 30px;
     color: #d00;
     font-size: 12px;
-
-}
-.registererror .p_reg_note{
     display: none;
+}
+/* .registererror .p_reg_note{
+    display: inline-block;
     width: 14px;
     height: 14px;
     vertical-align: middle;
     margin: -1px 3px 0 0;
     background: url("http://0.js.al.okbuycdn.com/resources/images/v6/common/ui_login.png") -76px 0 no-repeat;
     
-}
-.registererror>span{
-    display: none;
+} */
+.active{
+    display: block;
 }
 
+/* .sp{
+    position: absolute;
+    bottom: -65px;
+} */
+
 /* 图片二维码验证 */
-.imageCord{
+.imageCode{
     width: 380px;
     position: relative;
     height: 53px;
     overflow: hidden;
+    padding-bottom: 28px;
 
 }
-.imageCord .imageCord-register_txt{
+.imageCode .imageCode-register_txt{
     position: absolute;
     left: 0;
     top: 0;
@@ -167,7 +172,7 @@ body>.loginwarpper{
     width: 340px;
 
 }
-.imageCord .imageCord-register_txt>input{
+.imageCode .imageCode-register_txt>input{
     width: 162px;
     height: 48px;
     line-height: 48px;
@@ -180,6 +185,10 @@ body>.loginwarpper{
     z-index: 1;
     border: 1px solid #aaa;
 }
+
+
+
+
 /* 立即注册按钮 */
 .register_btn{
     width: 338px;
@@ -194,6 +203,9 @@ body>.loginwarpper{
     color: #fff;
     
 }
+
+
+
 /* 阅读选项 */
 .school_check_P{
     font-size: 12px;
