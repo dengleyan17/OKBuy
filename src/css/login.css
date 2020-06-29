@@ -105,14 +105,14 @@ body>.loginwarpper{
 }
 
 /* 账号密码登录 */
-.login-new-tabbody{
+.loginbody{
     display: none;
 }
-.login-new-tabbody .active{
+.loginbody .active{
     display: block;
 
 }
-.login-new-tabbody .userlogin form{
+.loginbody .userlogin form{
     display: block;
 }
 .login-txt{
@@ -149,6 +149,8 @@ body>.loginwarpper{
     margin: 0 0 10px;
     font-size: 18px;
     font-weight: bold;
+    text-align: center;
+    line-height: 50px;
     font-family: 'Microsoft Yahei';
     color: #fff;
     
@@ -192,11 +194,12 @@ body>.loginwarpper{
 
 }
 .scan-code .havecode .prompt{
-    /* display: none; */
+    display: none;
     position: absolute;
     top: 0;
     right: 0;
     width: 155px;
+    /* opacity: 0; */
 }
 
 .loginbody .scan-word{
