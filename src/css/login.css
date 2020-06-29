@@ -1,0 +1,312 @@
+#header{
+    width: 1200px;
+    overflow: hidden;
+    margin: 0 auto;
+
+}
+.header-left{
+    width: 159px;
+
+}
+.header-right{
+    height: 100px;
+    line-height: 100px;
+    font-size: 14px;
+    font-family: 'Microsoft Yahei';
+    color: #666;
+
+}
+.header-right .header-right-span{
+    margin-left: 60px;
+    text-align: left;
+}
+.header-right .header-right-span i{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin-right: 1px;
+    background: url("../../img/ui_login.png") -76px -60px no-repeat;
+
+}
+/* login background picture */
+.login-new-bg{
+    position: absolute;
+    left: 0;
+    top: 100px;
+    width: 100%;
+    height: 560px;
+    overflow: hidden;
+
+    color: #d70057;
+    text-decoration: none;
+    transition: color .3s linear;
+}
+.login-new-bg>img{
+    vertical-align: top;
+    width: 2000px;
+    height: 560px;
+
+    position: absolute;
+    left: 50%;
+    margin-left: -1000px;
+}
+
+/* 登录的tabbody */
+body>.loginwarpper{
+    width: 1200px;
+    height: 560px;
+    margin: 0 auto;
+
+}
+.loginwarpper .login{
+    width: 100%;
+    color: #676767;
+    font-size: 14px;
+    display: inline;
+    zoom: 1;
+    background-position: 55px 20px;
+
+}
+.loginwarpper .login .login-right-second{
+    width: 340px;
+    height: 520px;
+    margin: 20px 0 0 0;
+    padding: 0 30px;
+    display: inline;
+    position: relative;
+    font-family: 'Microsoft Yahei';
+    background: #fff;
+
+}
+.loginwarpper .login .login-right-second .login-new-tabhead{
+    width: 340px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Microsoft Yahei';
+    color: #333;
+}
+.login-new-tabhead>span{
+    display: inline-block;
+    width: 166px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    cursor: pointer;
+}
+.login-new-tabhead .active{
+    color: #d70057;
+}
+.login-new-tabhead .borderleft{
+    border-left: 1px solid #e0e0e0
+}
+
+/* 账号密码登录 */
+.login-new-tabbody{
+    display: none;
+}
+.login-new-tabbody .active{
+    display: block;
+
+}
+.login-new-tabbody .userlogin form{
+    display: block;
+}
+.login-txt{
+    background: #fff;
+    border: 1px solid #e0e0e0;
+}
+.login-txt>input{
+    height: 46px;
+    width: 327px;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    background: #fff;
+    line-height: 46px;
+    padding-left: 10px;
+    border: none;
+
+}
+/* 错误信息 */
+.loginerror{
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    color: #d00;
+
+}
+/* 立即登录按钮 */
+.login_btn{
+    width: 338px;
+    height: 50px;
+    background: #d70057;
+    border: none;
+    cursor: pointer;
+    margin: 0 0 10px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Microsoft Yahei';
+    color: #fff;
+    
+}
+/* 忘了密码按钮 */
+.forgetpassword{
+    color: #999;
+    font-size: 12px;
+    line-height: 20px;
+
+}
+.forgetpassword>a{
+    color: #999;
+    margin-left: 274px;
+}
+
+/* 扫码登录 */
+.loginbody{
+    display: none;
+}
+.current{
+    display: block;
+}
+.scan-code{
+    height: 200px;
+    text-align: center;
+
+}
+.scan-code .havecode{
+    position: relative;
+    width: 340px;
+    height: 200px;
+    margin: 28px auto;
+}
+.scan-code .havecode .code{
+    position: absolute;
+    left: 80px;
+    top: 0;
+    width: 180px;
+    height: 180px;
+
+}
+.scan-code .havecode .prompt{
+    /* display: none; */
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 155px;
+}
+
+.loginbody .scan-word{
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+
+}
+.loginbody .scan-down{
+    position: relative;
+    text-align: center;
+    font-size: 14px;
+
+}
+.loginbody .scan-down .down{
+    width: 200px;
+    margin: 10px auto;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+
+}
+.loginbody .dowling{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+    vertical-align: middle;
+    background: url("http://0.js.al.okbuycdn.com/resources/images/v6/common/ui_login.png") -52px -58px no-repeat;
+
+}
+.loginbody .scan-down .down:hover+.down-code {
+    display: block;
+}
+
+.loginbody .scan-down .down-code{
+    display: none;
+    z-index: 3;
+    position: absolute;
+    left: 90px;
+    top: 30px;
+    width: 158px;
+    height: 140px;
+    padding-top: 15px;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #f6f6f6;
+
+}
+.loginbody .scan-down .down-code>img{
+    width: 126px;
+    height: 126px;
+
+}
+
+/* 第三方登录入口 */
+.login-new-party{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    width: 360px;
+    padding: 16px 30px 16px 10px;
+    background: #f6f6f6;
+
+}
+.login-new-party .five-party a{
+    display: inline-block;
+    padding: 0 10px;
+    border-right: 1px solid #e0e0e0;
+
+}
+.login-new-party .five-party a i{
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+}
+.login-new-party .five-party a .login_icon_qq{
+    background: url("../../img/ui_login.png") -23px -58px no-repeat;
+}
+.login-new-party .five-party a .login_icon_wx{
+    background: url("../../img/ui_login.png") -5px -42px no-repeat;
+}
+.login-new-party .five-party a .login_icon_wb{
+    background: url("../../img/ui_login.png") -53px -30px no-repeat;
+}
+.login-new-party .five-party a .login_icon_pay{
+    background: url("../../img/ui_login.png") -5px -76px no-repeat;
+}
+.login-new-party .five-party a .login_icon_kx{
+    background: url("../../img/ui_login.png") -23px -30px no-repeat;
+}
+.toregister{
+    color: #666;
+}
+.toregister>i{
+    display: inline-block;
+    width: 16px;
+    height: 17px;
+    vertical-align: middle;
+    margin: -3px 5px 0 0;
+    background: url("../../img/ui_login.png") -76px -30px no-repeat;
+
+}
+/* footer */
+.footer{
+    height: 28px;
+    margin: 80px auto 10px;
+    text-align: center;
+    color: #999;
+    font-size: 12px;
+    line-height: 28px;
+}
