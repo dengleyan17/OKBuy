@@ -48,7 +48,7 @@ $(()=>{
             success: function(response){
                 if(response.status == "success"){
                     alert(response.msg);
-                    window.location.href = "http://www.baidu.com";
+                    window.location.href = "../html/index.html";
                 }else{
                     alert(response.msg);
                 }

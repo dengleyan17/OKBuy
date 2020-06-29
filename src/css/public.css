@@ -1,0 +1,98 @@
+#idx-header{
+    background-color: #fff;
+    position: relative;
+    z-index: 999;
+    clear: both;
+
+}
+#idx-header .nav{
+    height: 28px;
+    background: #f2f2f2;
+    border-bottom: 1px solid #dcdcdc;
+    position: relative;
+    z-index: 100;
+
+}
+#idx-header .nav .w1200{
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+
+}
+#idx-header .tinfo{
+    position: absolute;
+    right: 0;
+    top: 0;
+    line-height: 28px;
+
+}
+#idx-header .tinfo i{
+    color: #d9d9d9;
+    float: left;
+
+}
+.unlogin,.logined{
+    margin-right: 10px;
+}
+#idx-header .tinfo .name{
+    padding: 0;
+
+}
+#idx-header .tinfo a:link, #idx-header .tinfo a:visited{
+    color: #5a5a5a;
+}
+.unlogin, .logined, .unlogin a, .logined a{
+    float: left;
+}
+.unlogin i {
+    margin: 0 10px;
+
+}
+.navinfo{
+    position: relative;
+    float: left;
+    text-align: center;
+    padding: 0 10px;
+    border: 1px solid #f2f2f2;
+    cursor: pointer;
+}
+.arrowtop{
+    background: url(http://0.js.al.okbuycdn.com/resources/images/v6/common/section-tigger.png) -30px -37px no-repeat;
+    width: 11px;
+    height: 7px;
+    display: inline-block;
+    margin-left: 4px;
+}
+.navinfo .navinfobtm{
+    display: block;
+}
+.navinfobtm img {
+    margin-top: 10px;
+    vertical-align: top;
+    width: 68px;
+    height: 68px;
+}
+#siteNotice{
+    float: right;
+    padding: 0 10px;
+
+}
+#idx-header .noticeList{
+    position: absolute;
+    top: 28px;
+    right: 0;
+    min-width: 210px;
+    max-width: 500px;
+    background-color: #fff;
+    padding: 20px 10px 10px 10px;
+    z-index: 700;
+    border: 1px solid #dcdcdc;
+
+}
+a:hover {
+    color: #d70057;
+    text-decoration: none;
+}
+#idx-header .noticeList a:hover{
+    color: #dc3076;
+}
