@@ -48,7 +48,7 @@ $(()=>{
             success: function(response){
                 if(response.status == "success"){
                     alert(response.msg);
-                    window.location.href = "../html/index.html";
+                    window.location.href = "../index.html";
                 }else{
                     alert(response.msg);
                 }

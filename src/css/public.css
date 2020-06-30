@@ -236,3 +236,142 @@
     font-weight: normal;
 
 }
+
+/* 首页banner导航栏 */
+.nnav{
+    height: 40px;
+    width: 100%;
+    background: #000;
+
+}
+.nnav li{
+    position: relative;
+
+}
+.nnav .nnavList li{
+    float: left;
+
+}
+.nnav .nnavList a.cur{
+    width: 100px;
+    text-align: center;
+    display: block;
+    float: left;
+    color: #fff;
+    height: 40px;
+    line-height: 40px;
+    background: #d70057;
+
+}
+.nnav a{
+    position: relative;
+
+}
+.nnav .nnavList a{
+    width: 100px;
+    text-align: center;
+    display: block;
+    float: left;
+    color: #fff;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    font-family: 'Microsoft Yahei';
+
+}
+/* 二级菜单 */
+.nnav .navvsub{
+    display: none;
+    background-color: #fff;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    z-index: 900;
+    max-width: 1200px;
+    height: 396px;
+    background-color: #fff;
+    box-shadow: 2px 2px 4px #acacac;
+
+}
+.nnavarr{
+    position: absolute;
+    top: -7px;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+    font-size: 16px;
+    font-family: "\5b8b\4f53";
+    color: #fff;
+    text-decoration: none;
+
+}
+.nnavmain{
+    padding: 12px 0;
+    overflow: hidden;
+    zoom: 1;
+    font-family: 'Arial';
+
+}
+.nnavmain .colbox{
+    float: left;
+    display: inline;
+    padding: 10px 12px;
+    height: 352px;
+    overflow: hidden;
+    border-right: 1px dashed #aeaeae;
+
+}
+.nnavmain .colbox .catewrap{
+    line-height: 12px;
+    padding-top: 12px;
+    width: 320px;
+    overflow: hidden;
+    zoom: 1;
+
+}
+.nnavmain .colbox .catewrap h3.black{
+    color: #5e5e5e;
+
+}
+.nnavmain .colbox h3, .nnavmain .colthumb h3{
+    font-size: 12px;
+    font-weight: bold;
+    color: #d20d33;
+
+}
+.nnavmain .colbox .catewrap .context{
+    margin-top: 16px;
+
+}
+.nnavmain .colbox .catewrap .context a{
+    float: left;
+    display: inline;
+    width: auto;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    white-space: nowrap;
+    line-height: 14px;
+    color: #5E5E5E;
+    overflow: hidden;
+
+}
+.nnavmain .colthumb{
+    float: left;
+    display: inline;
+    padding: 10px 10px 10px 12px;
+
+}
+/* 鼠标移动触发样式 */
+.hassub:hover a{
+    color:#d20d33;
+
+}
+
+.nlihover{
+    display: block;
+}
+.colbox .catewrap .context a:hover{
+    color: #d20d33;
+    
+}

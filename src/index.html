@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./css/public.css">
     <link rel="stylesheet" href="./css/index.css">
     <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="./js/public.js"></script>
     <script src="./js/index.js"></script>
 </head>
 <body>
@@ -116,16 +117,16 @@
                 <!-- 一级导航菜单 -->
                 <ul class="nnavList">
                     <li>
-                        <a href="index.html">首页</a>
+                        <a href="index.html" class="cur">首页</a>
                     </li>
                     <li class="hassub">
-                        <a href="">运动生活</a>
+                        <a href="" class="nav_a1">运动生活</a>
                     </li>
                     <li class="hassub">
-                        <a href="">休闲服饰</a>
+                        <a href="" class="nav_a2">休闲服饰</a>
                     </li>
                     <li class="hassub">
-                        <a href="">男女名鞋</a>
+                        <a href="" class="nav_a3">男女名鞋</a>
                     </li>
                 </ul>
                 <!-- 二级导航菜单 -->
@@ -383,43 +384,136 @@
                         <!-- 第三列 -->
                         <div class="colthumb">
                             <h3>品牌导购</h3>
-                            <img src="http://i.okaybuy.cn/static/51b95d1386b993926464fb1abbe35358.jpg" alt="" width="243" height="357" usemap="#MapFuShi">
+                            <img src="http://i.okaybuy.cn/static/d300989474459c6ca26326d1955ea9da.jpg" alt="" width="243" height="357" usemap="#MapFuShi">
                             <map name="MapFuShi" id="MapFuShi">
-                                <area shape="rect" coords="89,97,151,136" href="" alt="">
-                                <area shape="rect" coords="7,97,65,131" href="" alt="">
-                                <area shape="rect" coords="164,97,230,133" href="" alt="">
-                                <area shape="rect" coords="6,49,64,89" href="" alt="">
-                                <area shape="rect" coords="86,51,150,89" href="" alt="">
-                                <area shape="rect" coords="160,48,231,86" href="" alt="">
-                                <area shape="rect" coords="162,5,229,43" href="" alt="">
-                                <area shape="rect" coords="83,313,154,346" href="" alt="">
-                                <area shape="rect" coords="87,3,141,38" href="" alt="">
-                                <area shape="rect" coords="6,4,61,40" href="" alt="">
-                                <area shape="rect" coords="10,142,65,174" href="" alt="">
-                                <area shape="rect" coords="93,145,152,184" href="" alt="">
-                                <area shape="rect" coords="166,144,229,180" href="" alt="">
-                                <area shape="rect" coords="7,187,68,221" href="" alt="">
-                                <area shape="rect" coords="90,186,154,218" href="" alt="">
-                                <area shape="rect" coords="166,186,230,221" href="" alt="">
-                                <area shape="rect" coords="7,229,67,266" href="" alt="">
-                                <area shape="rect" coords="90,186,154,218" href="" alt="">
-                                <area shape="rect" coords="166,186,230,221" href="" alt="">
-                                <area shape="rect" coords="7,229,67,266" href="" alt="">
-                                <area shape="rect" coords="89,234,158,265" href="" alt="">
-                                <area shape="rect" coords="168,227,227,265" href="" alt="">
-                                <area shape="rect" coords="6,274,66,304" href="" alt="">
-                                <area shape="rect" coords="91,270,159,310" href="" alt="">
-                                <area shape="rect" coords="162,268,232,303" href="" alt="">
-                                <area shape="rect" coords="2,313,64,341" href="" alt="">
+                                <area shape="rect" coords="164,272,236,314" href="" alt="">
+                                <area shape="rect" coords="89,271,156,313" href="" alt="">
+                                <area shape="rect" coords="6,271,80,309" href="" alt="">
+                                <area shape="rect" coords="8,7,85,46" href="" alt="">
+                                <area shape="rect" coords="94,9,159,48" href="" alt="">
+                                <area shape="rect" coords="167,8,235,45" href="" alt="">
+                                <area shape="rect" coords="8,53,84,89" href="" alt="">
+                                <area shape="rect" coords="93,53,166,87" href="" alt="">
+                                <area shape="rect" coords="168,50,233,89" href="" alt="">
+                                <area shape="rect" coords="8,95,76,132" href="" alt="">
+                                <area shape="rect" coords="85,94,154,132" href="" alt="">
+                                <area shape="rect" coords="168,94,237,132" href="" alt="">
+                                <area shape="rect" coords="5,138,76,174" href="" alt="">
+                                <area shape="rect" coords="165,137,238,174" href="" alt="">
+                                <area shape="rect" coords="4,179,83,218" href="" alt="">
+                                <area shape="rect" coords="87,180,160,218" href="" alt="">
+                                <area shape="rect" coords="84,139,156,174" href="" alt="">
+                                <area shape="rect" coords="167,179,237,218" href="" alt="">
+                                <area shape="rect" coords="6,224,80,265" href="" alt="">
+                                <area shape="rect" coords="88,227,155,267" href="" alt="">
+                                <area shape="rect" coords="162,225,236,264" href="" alt="">
                             </map>
                         </div>
                     </div>
                 </div>
                 <!-- 男女名鞋 -->
-                <div class="navvsub jsnav3"></div>
+                <div class="navvsub jsnav3">
+                    <p class="nnavarr" style="left: 342px;">◆</p>
+                    <div class="nnavmain">
+                        <!-- 第一列 -->
+                        <div class="colbox">
+                            <h3>男鞋</h3>
+                            <div class="catewrap">
+                                <h3 class="black">春秋款</h3>
+                                <p class="context">
+                                    <a href="">休闲鞋</a>
+                                    <a href="">正装鞋</a>
+                                    <a href="">商务鞋</a>
+                                    <a href="">工装鞋</a>
+                                    <a href="">帆布鞋</a>
+                                    <a href="">板鞋</a>
+                                    <a href="">户外鞋</a>
+                                    <a href="">布洛克鞋</a>
+                                    <a href="">伐木鞋</a>
+                                    <a href="">豆豆乐福鞋</a>
+                                </p>
+                            </div>
+                            <div class="catewrap">
+                                <h3 class="black">冬季款</h3>
+                                <p class="context">
+                                    <a href="">休闲靴</a>
+                                    <a href="">工装靴</a>
+                                    <a href="">马丁靴</a>
+                                    <a href="">雪地靴</a>
+                                    <a href="">棉鞋</a>
+                                    <a href="">高帮板鞋</a>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- 第二列 -->
+                        <div class="colbox">
+                            <h3>女鞋</h3>
+                            <div class="catewrap">
+                                <h3 class="black">春秋款</h3>
+                                <div class="context">
+                                    <a href="">休闲鞋</a>
+                                    <a href="">满帮女鞋</a>
+                                    <a href="">帆布鞋</a>
+                                    <a href="">户外鞋</a>
+                                    <a href="">妈妈鞋</a>
+                                    <a href="">浅口女鞋</a>
+                                    <a href="">厚底鞋</a>
+                                    <a href="">乐福鞋</a>
+                                </div>
+                            </div>
+                            <div class="catewrap">
+                                <h3 class="black">冬季款</h3>
+                                <div class="context">
+                                    <a href="">短靴</a>
+                                    <a href="">中筒靴</a>
+                                    <a href="">内增高</a>
+                                    <a href="">马丁靴</a>
+                                    <a href="">及裸靴</a>
+                                    <a href="">女雪地靴</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 最后一列 -->
+                        <div class="colthumb">
+                            <h3>品牌导购</h3>
+                            <img src="http://i.okaybuy.cn/static/623579aebe21eb8507db296098764616.jpg" alt="" width="243" height="345" usemap="#MapNaNNv">
+                            <map name="MapNaNNv" id="MapNaNNv">
+                                <area shape="rect" coords="4,6,72,50" href="" alt="">
+                                <area shape="rect" coords="79,8,152,50" href="" alt="">
+                                <area shape="rect" coords="159,10,238,47" href="" alt="">
+                                <area shape="rect" coords="7,54,79,89" href="" alt="">
+                                <area shape="rect" coords="82,51,154,91" href="" alt="">
+                                <area shape="rect" coords="159,54,238,90" href="" alt="">
+                                <area shape="rect" coords="10,93,78,129" href="" alt="">
+                                <area shape="rect" coords="87,94,155,130" href="" alt="">
+                                <area shape="rect" coords="163,96,237,130" href="" alt="">
+                                <area shape="rect" coords="8,132,79,171" href="" alt="">
+                                <area shape="rect" coords="83,134,154,172" href="" alt="">
+                                <area shape="rect" coords="163,133,239,173" href="" alt="">
+                                <area shape="rect" coords="6,178,80,214" href="" alt="">
+                                <area shape="rect" coords="82,175,161,212" href="" alt="">
+                                <area shape="rect" coords="165,177,235,210" href="" alt="">
+                                <area shape="rect" coords="7,218,75,253" href="" alt="">
+                                <area shape="rect" coords="80,216,161,251" href="" alt="">
+                                <area shape="rect" coords="168,212,238,255" href="" alt="">
+                                <area shape="rect" coords="5,255,74,295" href="" alt="">
+                                <area shape="rect" coords="80,256,158,292" href="" alt="">
+                                <area shape="rect" coords="165,260,237,296" href="" alt="">
+                            </map>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-
     </div>
+    <!-- banner轮播图 -->
+    <div id="mainSlide" class="mainSlide">
+        <div id="topslide"></div>
+    </div>
+
+
+    <script>
+        (new Slider(["../img/b1.png","../img/b2.png","../img/b3.png"])).init()
+    </script>
 </body>
 </html>
