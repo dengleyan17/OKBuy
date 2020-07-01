@@ -119,10 +119,7 @@ class Brand{
     }
     init(){
         this.createUI();
-        console.log("1111");
-        console.log(this.root);
-
-        // this.addEventHandler();
+        
     }
     createUI(){
         this.root = this.data.map((item,idx)=>

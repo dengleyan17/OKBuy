@@ -112,7 +112,7 @@
             </div>
         </div>
         <!-- 首页banner导航栏 -->
-        <div class="nnav">
+        <div class="nnav" >
             <div class="w1200">
                 <!-- 一级导航菜单 -->
                 <ul class="nnavList">
@@ -570,10 +570,10 @@
     <!-- 标准底部 -->
     <div id="footer">
         <div class="footcon">
-            <div class="footerw">
+            <div class="footerw clearfix">
                 <div class="qd">
-                    <div class="footer_code">
-                        <div class="wx_code">
+                    <div class="footer_code" style="margin-left: 90px;">
+                        <div class="wx_code" style="margin-right: 130px;">
                             <img src="http://0.js.al.okbuycdn.com/resources/images/v6/common/code_public.jpg" alt="">
                             <p>好乐买微信公众号</p>
                         </div>
@@ -608,15 +608,30 @@
                         <p>联系客服</p>
                     </li>
                 </ul>
-                <p class="center oklog"></p>
-                <p class="about"></p>
+                <p class="center oklogo">
+                    <a href=""><img src="http://0.js.al.okbuycdn.com/resources/images/v6/index/okbuy1-03.png" alt=""></a>
+                    <a href=""><img src="http://0.js.al.okbuycdn.com/resources/images/v6/index/okbuy1-05.png" alt=""></a>
+                    <a href=""><img src="http://i.okaybuy.cn/images/multipic/new/201508/90/902c39b52902b3bd4ab500babad4e14a.png" alt=""></a>
+                    <a href=""><img src="http://0.js.al.okbuycdn.com/resources/images/v6/index/bjwj.jpg" alt=""></a>
+                </p>
+                <p class="about">
+                    <a href="">公司介绍</a> | 
+                    <a href="">加入我们</a> | 
+                    <a href="">联系我们</a> | 
+                    <a href="">友情链接</a>
+                </p>
             </div>
-            <div class="footbtn">
-
+            <div class="bt">
+                天津好乐买信息技术有限公司    Copyright © 2007-2020 OkBuy.com All Rights Reserved  增值电信业务经营许可证：津B2-20200075  &nbsp;
+                <a href="">津ICP备16005872号-1</a>
+                &emsp; 京公网安备110105006859  &emsp;
             </div>
         </div>
     </div>
-
+    <div id="gotop" style="position: fixed; left: 50%; margin-left: 615px; bottom: 79px; cursor: pointer; display: none;">
+        <div class="top"></div>
+        <a href="" class="feed"></a>
+    </div>
     <script>
         (new Slider(["../img/b1.png","../img/b2.png","../img/b3.png","../img/b4.png"])).init();
 
@@ -625,6 +640,7 @@
         $.getJSON("./json/indexList.json", (data) => (new IndexList(data)).init());
 
         $.getJSON("./json/indexList2.json", (data) => (new IndexList2(data)).init());
+
     </script>
 </body>
 </html>
