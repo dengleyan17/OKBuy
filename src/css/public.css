@@ -21,6 +21,7 @@
     margin: 0 auto;
 
 }
+
 #idx-header .tinfo{
     position: absolute;
     right: 0;
@@ -374,4 +375,24 @@
 .colbox .catewrap .context a:hover{
     color: #d20d33;
     
+}
+
+
+/* -------------------------------------- */
+/* 标准底部 */
+#footer{
+    border-top: solid 1px #a6a6a6;
+    margin-top: 40px;
+
+}
+#footer .footcon{
+    border-top: solid 1px #c3c3c3;
+    background-color: #e6e6e6;
+    padding: 28px 0 0 0;
+
+}
+#footer .footcon .footerw{
+    width: 1250px;
+    margin: 0 auto;
+
 }
