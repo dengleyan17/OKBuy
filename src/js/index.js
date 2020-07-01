@@ -123,7 +123,7 @@ class Brand{
     }
     createUI(){
         this.root = this.data.map((item,idx)=>
-            `<a href=""><img src="${item.src}" alt=""></a>`
+            `<a href="./html/list.html"><img src="${item.src}" alt=""></a>`
         ).join("");
         
         $(".brand-content").append(this.root);
@@ -141,7 +141,7 @@ class IndexList{
         this.renderUI();
     }
     renderUI(){
-        this.root = this.data.map((item,idx)=>`<li><a href="">
+        this.root = this.data.map((item,idx)=>`<li><a href="./html/list.html">
         <img src="${item.src}" alt="">
         <span class="tit1">${item.tit1}</span>
         <span class="tit2">${item.tit2}</span>
@@ -165,7 +165,7 @@ class IndexList2{
         this.renderUI();
     }
     renderUI(){
-        this.root = this.data.map((item,idx)=>`<li><a href="">
+        this.root = this.data.map((item,idx)=>`<li><a href="./html/list.html">
         <img src="${item.src}" alt="">
         <p class="list3tit1">${item.tit}<span>${item.desc}</span></p>
     </a></li>`
