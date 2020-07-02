@@ -118,3 +118,249 @@
 }
 /* ------------------------------------------- */
 /* 筛选器样式 */
+#selector{
+    margin-bottom: 20px;
+
+}
+#w1200{
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+}
+.filter-section{
+    border-color: #fff;
+    border-style: solid;
+    border-width: 1px 1px 0 1px;
+    overflow: hidden;
+
+}
+.filter-wrapper{
+    background-color: #fff;
+    font-family: 'Microsoft Yahei';
+    font-size: 12px;
+
+}
+.section-item{
+    border-bottom: 1px dotted #c8c8c8;
+    position: relative;
+    overflow: hidden;
+
+}
+#selector .filter-label{
+    float: left;
+    width: 100px;
+    padding-top: 12px;
+    margin-bottom: -1000px;
+    padding-bottom: 1000px;
+    text-align: center;
+    background-color: #fbfbfb;
+    color: #333;
+    font-size: 12px;
+    font-weight: normal;
+
+}
+.filter-con{
+    margin: 8px 0 4px 100px;
+    width: 1078px;
+    overflow: hidden;
+    background-color: #fff;
+    position: relative;
+
+}
+.filter-con .filter-all{
+    float: left;
+    margin: 0 20px;
+
+}
+.filter-con .filter-all a{
+    display: block;
+    padding: 3px 8px 4px;
+
+}
+.filter-con .filter-all a.check{
+    background-color: #d70057;
+    color: #fff;
+
+}
+.filter-list{
+    float: left;
+    width: 890px;
+
+}
+.filter-item{
+    float: left;
+    display: inline-block;
+    width: 127px;
+    padding-bottom: 2px;
+
+}
+.filter-item a{
+    display: inline-block;
+    padding: 3px 20px 3px 6px;
+    line-height: 18px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #333;
+    position: relative;
+
+}
+
+/* 颜色 */
+.color-item{
+    float: left;
+    display: inline-block;
+    width: auto;
+    padding-bottom: 5px;
+
+}
+.color-item a{
+    background: url(http://0.js.al.okbuycdn.com/resources/images/v6/product/color.png) no-repeat 0 0;
+    width: 21px;
+    height: 22px;
+    display: block;
+    padding-left: 7px;
+
+}
+.color-item .selectblack{
+    background-position: -1px 0;
+
+}
+.color-item .selectwhite{
+    background-position: -88px 0;
+
+}
+.color-item .selectgray{
+    background-position: -59px 0;
+
+}
+.color-item .selectpink{
+    background-position: -59px -34px;
+
+}
+.color-item .selectblue{
+    background-position: -117px -34px;
+
+}
+.color-item .selectred{
+    background-position: -30px -34px;
+
+}
+.color-item .selectdarkblue{
+    background-position: -260px -34px;
+
+}
+.color-item .selectkhaki{
+    background-position: -204px 0px;
+
+}
+.color-item .selectgold{
+    background-position: -146px 0px;
+
+}
+.color-item .selectlightpink{
+    background-position: -232px -34px;
+
+}
+.color-item .selectmixcolor{
+    background-position: -175px -34px;
+
+}
+.color-item .selectargental{
+    background-position: -30px 0;
+
+}
+.color-item .selectnaturals{
+    background-position: -260px 0;
+
+}
+.color-item .selectredbrown{
+    background-position: -204px -34px;
+
+}
+
+/* 价格 */
+.fprice-con{
+    padding-left: 10px;
+    padding-bottom: 5px;
+
+}
+.filter-price{
+    float: left;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 10px;
+    width: 68px;
+    height: 26px;
+    border: 1px solid #ececec;
+    overflow: hidden;
+    position: relative;
+
+}
+.fprice-con .fgeo{
+    float: left;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 28px;
+
+}
+.filter-price .fpricetxt{
+    position: absolute;
+    top: 0;
+    left: 10px;
+    line-height: 26px;
+    color: #999;
+
+}
+.filter-price .fprice-num{
+    margin: 0 2px 0 22px;
+    width: 44px;
+
+    height: 24px;
+    border: 0;
+    outline: none;
+
+}
+.fpricebtn{
+    float: left;
+    display: inline-block;
+    vertical-align: middle;
+    width: 68px;
+    height: 28px;
+    line-height: 28px;
+    margin: 0 10px;
+    text-align: center;
+    color: #656668;
+    background-color: #ffe1ed;
+    cursor: pointer;
+
+}
+/* ---------------------------------------- */
+/* 分类页 */
+/* 排序头 */
+.prolist-head{
+    height: 38px;
+    border: 1px solid #d9d9d9;
+    background-color: #fbfbfb;
+
+}
+.prolist-head .pro-tab a.cur{
+    color: #d70057;
+    background-color: #fff;
+    border-bottom: 1px solid #fff;
+
+}
+.prolist-head .pro-tab a{
+    float: left;
+    display: inline;
+    padding: 0 27px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    color: #666;
+    border-right: 1px solid #d9d9d9;
+    position: relative;
+    font-family: 'Microsoft Yahei';
+    font-size: 12px;
+
+}
