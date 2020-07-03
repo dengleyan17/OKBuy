@@ -8,7 +8,7 @@ mysqli_set_charset($db,'utf8');
 $user_id = $_REQUEST["userid"];
 
 // 多表查询
-$sql = "SELECT mainlist.*,mainlist.name,mainlist.src,mainlist.discount,mainlist.price,mainlist.costprice,mainlist.size FROM mainlist , cart WHERE cart.comid = mainlist.comid AND id=$user_id";
+$sql = "SELECT mainlist.*,mainlist.name,mainlist.src,mainlist.discount,mainlist.price,mainlist.costprice,mainlist.size,cart.num,cart.comid FROM mainlist , cart WHERE cart.comid = mainlist.comid AND id=$user_id";
 
 $result = mysqli_query($db,$sql);
 

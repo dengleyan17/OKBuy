@@ -53,9 +53,9 @@
 
 }
 /* 全选按钮，选中样式 */
-.cartlist table span .allcur{
+.cartlistin table td span.cur, .cartlist table th span.allcur{
     background: url(http://0.js.al.okbuycdn.com/resources/images/v6/cart/checkbox.png) -20px 0 no-repeat;
-
+    
 }
 /* -------------------------- */
 .cartlist table span{
@@ -110,7 +110,7 @@
 
 }
 .cartsum table th i em{
-    font-size: 24px;
+    font-size: 18px;
     line-height: 10px;
     font-family: Verdana;
     font-weight: bold;
