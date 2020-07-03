@@ -53,7 +53,6 @@ $(()=>{
                     localStorage.username = response.data.username;
                     localStorage.id = response.data.userId;
                     
-                    console.log(response);
                     alert(response.data.msg);
                     window.location.href = "../index.html";
                 }else{
