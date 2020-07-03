@@ -462,6 +462,29 @@
     font-family: 'Verdana';
 
 }
+/* 加入购物车按钮 */
+.gl-wrap{
+    position: relative;
+
+}
+.gl-wrap .addCart{
+    position: absolute;
+    bottom: 20px;right: 30px;
+    border: 1px solid #ccc;
+    width: 75px;
+    height: 24px;
+    line-height: 23px;
+    margin-left: 10px;
+    text-align: center;
+    cursor: pointer;
+    z-index: 123;
+}
+.gl-wrap .addCart:hover{
+    background: #d70057;
+    border: 1px solid #d70057;
+    color: #fff;
+}
+/* ----------------- */
 .gl-price .market-price{
     margin-left: 12px;
     text-decoration: line-through;
@@ -490,16 +513,30 @@
 
 }
 /* 分页模块样式 */
-.prolist-page {
+.prolist-page{
     padding: 30px 0;
     text-align: center;
     background-color: #fff;
 
 }
-.propage-num {
+.propage-num{
     display: inline-block;
     vertical-align: middle;
     font-family: 'Verdana';
     font-size: 12px;
 
+}
+.propage-num a{
+    float: left;
+    height: 24px;
+    line-height: 24px;
+    padding: 0 8px;
+    margin-right: 12px;
+    color: #003;
+    cursor: pointer;
+}
+/* 点击选择时的样式 */
+.propage-num .current{
+    background-color: #d70057;
+    color: #fff;
 }

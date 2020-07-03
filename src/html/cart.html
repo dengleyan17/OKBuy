@@ -43,7 +43,7 @@
                         <a href="">手机好乐买</a>
                         <span class="arrowtop"></span>
                         <div class="navinfobtm r2-1">
-                            <img src="../img/logincode.png" alt=""><br>
+                            <img src="../../img/logincode.png" alt=""><br>
                             下载客户端
                         </div>
                     </div>
@@ -52,7 +52,7 @@
                         <a href="">关注好乐买</a>
                         <span class="arrowtop"></span>
                         <div class="navinfobtm r3-1">
-                            <img src="../img/logincode.png" alt=""><br>
+                            <img src="../../img/logincode.png" alt=""><br>
                             微信公众号
                         </div>    
                     </div>
@@ -118,7 +118,7 @@
                 <!-- 一级导航菜单 -->
                 <ul class="nnavList">
                     <li>
-                        <a href="index.html" class="cur">首页</a>
+                        <a href="../index.html" class="cur">首页</a>
                     </li>
                     <li class="hassub">
                         <a href="" class="nav_a1">运动生活</a>
@@ -507,7 +507,73 @@
             </div>
         </div>
     </div>
-    
+    <!-- 购物车列表 -->
+    <div class="cartcen">
+        <div class="carttit">
+            <p>我的购物车</p>
+            <span style="color:#d70057"></span>
+        </div>
+        <div class="OB_clearB"></div>
+        <div class="cartlist">
+            <!-- 购物车头部 -->
+            <table>
+                <thead>
+                    <tr>
+                        <th width="110">
+                            <span class="checkboxall"></span>
+                            <span class="all">全选</span>
+                        </th>
+                        <th width="470">商品名称</th>
+                        <th width="110">单价</th>
+                        <th width="240">数量</th>
+                        <th width="110">小计</th>
+                        <th>操作</th>
+                    </tr>
+                </thead>
+            </table>
+            <!-- 购物车商品列表 -->
+            <div class="cartlistin">
+
+            </div>
+            <!-- 购物车结算栏 -->
+            <div class="cartsumout cartsumoutbtm">
+                <div class="cartsum">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th width="110">
+                                    <span class="checkboxall"></span>
+                                    <span class="all">全选</span>
+                                </th>
+                                <th width="100" id="delall">删除所选商品</th>
+                                <th width="140"></th>
+                                <th width="100">&nbsp;</th>
+                                <th width="100">商品数量：
+                                    <i id="total_num"></i>
+                                </th>
+                                <th width="140">商品金额：
+                                    <i>￥
+                                        <em id="total_last_all"></em>
+                                    </i>
+                                </th>
+                                <th width="130">活动优惠：
+                                    <i>￥
+                                        <em id="total_last_reduce"></em></i>
+                                </th>
+                                <th width="220">合计(不含运费)：
+                                    <i class="pr">
+                                        ￥
+                                        <em id="total_price"></em>
+                                    </i>
+                                </th>
+                                <th width="160"><span id="submit">去结算</span></th>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- 标准底部 -->
     <div id="footer">
         <div class="footcon">
