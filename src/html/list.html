@@ -12,6 +12,7 @@
     <script src="../js/public.js"></script>
     <script src="../js/list.js"></script>
     <script src="../js/load.js"></script>
+    
 </head>
 <body>
     <!-- 头部导航栏 -->
@@ -796,38 +797,46 @@
                 <div class="prolist-head" id="listheader" style="position: static; top: 0px; z-index: 400; width: 1200px;">
                     <div class="pro-tab">
                         <!-- 排序参数 -->
-                        <a href="javascript:void(0)" class="cur ordby_default">默认</a>
-                        <a href="javascript:void(0)" class="ordby_default">价格</a>
-                        <a href="javascript:void(0)" class="ordby_default">销量</a>
-                        <a href="javascript:void(0)" class="ordby_default">最新</a>
+                        <a href="javascript:void(0)" class="cur" data-sort="default">默认</a>
+                        <a href="javascript:void(0)" class="" data-sort="price_asc">价格↑</a>
+                        <a href="javascript:void(0)" class="" data-sort="price_desc">价格↓</a>
+                        <a href="javascript:void(0)" class="">最新</a>
                     </div>
-                    <div class="prolist-main">
-                        <ul class="clearfix mainlist">
-                            <!-- <li class="gl-item over" commid="1">
-                                <div id="js-promotion-10999" commid="1">
-                                    <div class="proright-icon"></div>
-                                </div>
-                                <div class="gl-wrap">
-                                    <div class="gl-img">
-                                        <a href="">
-                                            <img src="src" alt="" class="pdImg">
-                                            <img src="src" alt="" class="pdImgB">
-                                        </a>
-                                    </div>
-                                    <p class="gl-name">
-                                        <a href="" title="tit">tit</a>
-                                    </p>
-                                    <p class="gl-price">
-                                        ￥<span class="okprice" id="comid">pirce</span>
-                                        <span class="oksale">(discount折)</span>
-                                        <span class="market-price">por</span>
-                                    </p>
-                                    <p class="gl-sale-info"></p>
-                                </div>
-                            </li> -->
-                        </ul>
-                    </div>
+                    
                 </div>
+                <div class="prolist-main">
+                    <ul class="mainlist clearfix">
+                        <!-- <li class="gl-item over" commid="1">
+                            <div id="js-promotion-10999" commid="1">
+                                <div class="proright-icon"></div>
+                            </div>
+                            <div class="gl-wrap">
+                                <div class="gl-img">
+                                    <a href="">
+                                        <img src="src" alt="" class="pdImg">
+                                        <img src="src" alt="" class="pdImgB">
+                                    </a>
+                                </div>
+                                <p class="gl-name">
+                                    <a href="" title="tit">tit</a>
+                                </p>
+                                <p class="gl-price">
+                                    ￥<span class="okprice" id="comid">pirce</span>
+                                    <span class="oksale">(discount折)</span>
+                                    <span class="market-price">por</span>
+                                </p>
+                                <p class="gl-sale-info"></p>
+                            </div>
+                        </li> -->
+                    </ul>
+                </div>
+            </div>
+            <!-- 分页功能模块 -->
+            <div class="prolist-page">
+                <span class="propage-num">
+                    <a href="" id="prevPage">上一页</a>
+                    <a href="" id="nextPage">下一页</a>
+                </span>
             </div>
         </div>
     </div>
@@ -897,7 +906,7 @@
         <a href="" class="feed"></a>
     </div>
     <script>
-       $.getJSON("../json/mainList.json",(data)=>(new MainList(data)).init());
+    //    $.getJSON("../json/mainList.json",(data)=>(new MainList(data)).init());
 
     </script>
 </body>

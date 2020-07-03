@@ -66,7 +66,7 @@ $(() => {
     // 回到顶部过程中，滚动鼠标滚轮阻止回到顶部事件
     window.onmousewheel = function(){
         clearInterval(goToTop);
-    }
+    };
 
 
     //吸顶效果
@@ -83,6 +83,6 @@ $(() => {
             sidebar.css("top","0");
             
         }
-    })
+    });
 
 })

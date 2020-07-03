@@ -74,11 +74,38 @@
     border-left: 1px solid #fff;
     
 }
+/* 点击后改变样式 */
 #brandTab a.bTclick_1{
     background: url(http://0.js.al.okbuycdn.com/resources/images/v6/product/newcateclick_1.png) no-repeat;
     border-color: #d70057;
 
 }
+#brandTab a.bTclick_2{
+    background: url(http://0.js.al.okbuycdn.com/resources/images/v6/product/newcateclick_2.png) no-repeat;
+    border-color: #d70057;
+
+}
+#brandTab a.bTclick_3{
+    background: url(http://0.js.al.okbuycdn.com/resources/images/v6/product/newcateclick_3.png) no-repeat;
+    border-color: #d70057;
+
+}
+#brandTab a.bTclick_4{
+    background: url(http://0.js.al.okbuycdn.com/resources/images/v6/product/newcateclick_4.png) no-repeat;
+    border-color: #d70057;
+
+}
+#brandTab a.bTclick_5{
+    background: url(http://0.js.al.okbuycdn.com/resources/images/v6/product/newcateclick_5.png) no-repeat;
+    border-color: #d70057;
+
+}
+#brandTab a.bTclick_6{
+    background: url(http://0.js.al.okbuycdn.com/resources/images/v6/product/newcateclick_6.png) no-repeat;
+    border-color: #d70057;
+
+}
+/* ----------------------------- */
 #brandTab a.brandTab_1{
     width: 198px;
 
@@ -361,6 +388,118 @@
     border-right: 1px solid #d9d9d9;
     position: relative;
     font-family: 'Microsoft Yahei';
+    font-size: 12px;
+
+}
+.prolist-main{
+    padding-top: 30px;
+    padding-left: 24px;
+    background-color: #fff;
+
+}
+.gl-item{
+    float: left;
+    width: 270px;
+    height: 360px;
+    margin-right: 24px;
+    margin-bottom: 24px;
+    position: relative;
+
+}
+.proright-icon{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 300;
+}
+.gl-img{
+    height: 270px;
+    margin-bottom: 15px;
+    position: relative;
+
+}
+.gl-img .pdImg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 150;
+
+}
+.gl-name{
+    margin: 0 8px 6px;
+}
+.gl-name>a{
+    display: block;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    color: #666;
+    font-family: 'Microsoft Yahei';
+    font-size: 12px;
+
+}
+.gl-price{
+    margin-left: 8px;
+    margin-bottom: 8px;
+    line-height: 20px;
+    color: #d70057;
+    font-family: 'Microsoft Yahei';
+    font-size: 12px;
+
+}
+.gl-price .okprice{
+    font-family: 'Verdana';
+    font-size: 18px;
+    position: relative;
+    top: 1px;
+
+}
+.gl-price .oksale{
+    font-family: "SimSun";
+    
+}
+.gl-price .oksale em{
+    font-family: 'Verdana';
+
+}
+.gl-price .market-price{
+    margin-left: 12px;
+    text-decoration: line-through;
+    color: #999;
+    font-family: 'Verdana';
+
+}
+.gl-sale-info{
+    height: 17px;
+    line-height: 17px;
+    padding-right: 7px;
+    margin: 0 8px;
+    overflow: hidden;
+    background-color: #f0f0f0;
+    color: #666;
+    font-family: 'Microsoft Yahei';
+    font-size: 12px;
+
+}
+.gl-sale-info .sale-tag{
+    display: inline-block;
+    margin-right: 7px;
+    padding: 0 9px;
+    background-color: #fe3f72;
+    color: #fff;
+
+}
+/* 分页模块样式 */
+.prolist-page {
+    padding: 30px 0;
+    text-align: center;
+    background-color: #fff;
+
+}
+.propage-num {
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'Verdana';
     font-size: 12px;
 
 }
