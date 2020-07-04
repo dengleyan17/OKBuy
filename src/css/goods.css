@@ -320,6 +320,13 @@ ul.selectSize li{
     white-space: nowrap;
 
 }
+/* 尺寸 */
+/* 选中效果样式 */
+.selectCurArea a.selectCurrentLink{
+    border: 1px solid #d70057;
+    
+}
+/* ------------------------------------ */
 .selectCurArea{
     background: white;
 
@@ -329,6 +336,149 @@ ul.selectSize li{
     border: 1px solid #ccc;
     position: relative;
     background: white;
+    width: 45px;
+    height: 24px;
+    text-align: center;
+    line-height: 24px;
 
 }
+/* 数量 */
+.prodConSize div.prodBuyNum{
+    width: 56px;
+    padding-top: 5px;
 
+}
+.prodConSize .prodH{
+    line-height: 18px;
+
+}
+ul.selectCount{
+    float: left;
+
+}
+ul.selectCount li{
+    float: left;
+
+}
+ul.selectCount li a.reduce,ul.selectCount li a.add{
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #8c8b8b;
+    background: #f9f9f9;
+    line-height: 30px;
+
+}
+ul.selectCount li a{
+    display: block;
+    overflow: hidden;
+    height: 100%;
+
+}
+.inputBorderBg input.inputNum_1{
+    text-align: center;
+    line-height: 26px;
+
+}
+.inputNum{
+    width: 30px;
+    padding: 1px 2px;
+}
+.inputClass,.textAreaClass{
+    border: 0;
+    height: 26px;
+    overflow: hidden;
+    text-align: left;
+    border-top: 1px solid #b5b5b5;
+    border-bottom: 1px solid #b5b5b5;
+
+}
+.reduce{
+    border: 1px solid #b5b5b5;
+    border-right: 0;
+   
+}
+.add{
+    border: 1px solid #b5b5b5;
+    border-left: 0;
+}
+.stocktit{
+    color: #999;
+    margin-left: 10px;
+    display: inline-block;
+    margin-top: 8px;
+
+}
+/* 购物车按钮 */
+.cartopewrap{
+    margin: 40px 0 0 76px;
+    height: 50px;
+    zoom: 1;
+
+}
+#CartButton{
+    float: left;
+    display: inline;
+
+}
+.prodCartBtn{
+    height: 50px;
+    width: 250px;
+    padding-left: 32px;
+    border: 0;
+    cursor: pointer;
+    background: #d70057 url(http://0.js.al.okbuycdn.com/resources/images/v6/product/detail/cartbtnbg.png) 59px 17px no-repeat;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    font-family: 'Microsoft Yahei';
+    font-size: 20px;
+    border-radius: 1px;
+
+}
+#prodWishBlock{
+    margin-left: 270px;
+    padding-top: 17px;
+
+}
+.prodWish{
+    height: 16px;
+    line-height: 15px;
+    color: #999;
+    background: url(http://0.js.al.okbuycdn.com/resources/images/v6/product/detail/wishstar.png) no-repeat;
+    padding-left: 22px;
+
+}
+.prodWish a{
+    color: #999;
+
+}
+#prodWishSucces{
+    padding: 10px 10px 10px 2px;
+    width: 300px;
+    line-height: 18px;
+
+}
+.prodNotice{
+    margin: 20px 0 16px 76px;
+    padding-left: 18px;
+    line-height: 16px;
+    color: #999;
+    background: url(http://0.js.al.okbuycdn.com/resources/images/v6/product/detail/pronotic.png) top left no-repeat;
+    letter-spacing: -1px;
+
+}
+.okbuyservice{
+    padding: 10px 0 10px 76px;
+    width: 630px;
+    height: 32px;
+    border-color: #dcdcdc;
+    border-width: 1px 0;
+    border-style: dashed;
+    background: url(http://0.js.al.okbuycdn.com/resources/images/v6/product/detail/okservice1.jpg) 72px 10px no-repeat;
+
+}
