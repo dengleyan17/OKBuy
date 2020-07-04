@@ -79,13 +79,13 @@ $(()=>{
                 </div>
                 <div class="gl-wrap">
                     <div class="gl-img">
-                        <a href="">
+                        <a href="../html/goods.html">
                             <img src="${item.src}" alt="" class="pdImg">
                             <img src="${item.src}" alt="" class="pdImgB">
                         </a>
                     </div>
                     <p class="gl-name">
-                        <a href="" title="${item.name}">${item.name}</a>
+                        <a href="../html/goods.html" title="${item.name}">${item.name}</a>
                     </p>
                     <p class="gl-price">
                         ￥<span class="okprice" id="${item.comid}">${item.price}</span>

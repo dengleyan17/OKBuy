@@ -81,7 +81,11 @@ $(()=>{
                 if(response.status == "success"){
                     
                     alert(response.msg);
-                    window.location.href = "http://www.baidu.com";
+
+                    localStorage.setItem() = username;
+                    localStorage.setItem() = id;
+
+                    window.location.href = "./login.html";
                 }else{
                     alert(response.msg);
                 }
