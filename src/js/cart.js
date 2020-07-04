@@ -70,6 +70,38 @@ $(()=>{
         $(".cartlistin").html(html);
     }
 
+    //点击加减数量
+    
+    $(".cartlistin").on("click",".reduce",function(){
+            
+        let reduce = $("#sum");
+
+        console.log(reduce);
+
+        if(reduce.val() <= 1 ){
+
+            reduce.val(1);
+        }else{
+
+            reduce.val(parseInt(reduce.val() - 1));
+        }
+    });
+
+    $(".cartlistin").on("click",".add",function(){
+        console.log("12222");
+        let add = $("#sum");
+
+    
+        if(add.val() < 10 ){
+            console.log(add.val())
+            add.val(parseInt(add.val() * 1 + 1 ));
+        }else{
+
+            add.val(10);
+        }
+    });
+
+
     /* 全选的功能：点击的时候切换选中的状态(改变自己的状态 + 改变所有其他复选框的状态) */
     $(".checkboxall,.all").click(function(){
 
@@ -128,8 +160,7 @@ $(()=>{
     })
 
 
-// 
-
+    
 
 
 

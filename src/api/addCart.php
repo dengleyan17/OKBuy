@@ -4,6 +4,7 @@ include_once "./connetDB.php";
 
 $good_id = $_REQUEST["comid"];
 $user_id = $_REQUEST["userid"];
+$add_num = $_REQUEST["num"];
 
 /* 2、执行添加操作 */
 /* 先检查当前的商品在购物车中是否已经存在，如果不存在那么就执行插入操作，否则应该执行修改的操作 num +1 */
@@ -16,9 +17,9 @@ if($num == 0){
     $sql = "INSERT INTO cart " .
     "(cart_id,comid,id,num)" .
     "VALUES " .
-    "(NULL,$good_id,$user_id,1)";
+    "(NULL,$good_id,$user_id,$add_num)";
 }elseif($num == 1){
-    $sql = "UPDATE cart SET num = num +1 WHERE comid = $good_id AND id = $user_id";
+    $sql = "UPDATE cart SET num = num + $add_num WHERE comid = $good_id AND id = $user_id";
 }
 
 $retval = mysqli_query($db,$sql);
